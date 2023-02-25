@@ -9,7 +9,7 @@ export default function DestinationCard({ destination }) {
 
         <p className="text-gray-600">${destination.averagePrice} / night average</p>
         <div className="mt-4">
-          <a href="#" className="text-red-800 hover:text-red-700 font-semibold text-sm">
+          <a href="#" className="text-brand hover:text-brand-light font-semibold text-sm">
             Explore {destination.propertyCount} properties
           </a>
         </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import popularDestinations from './data/popularDestinations'
 import DestinationCard from './components/DestinationCard'
+import Logo from './components/Logo'
 
 export default function App() {
     return (
@@ -8,11 +9,11 @@ export default function App() {
             <div className="grid lg:grid-cols-2 bg-white 2xl:grid-cols-5">
                 <div className="px-4 py-4 lg:px-12 lg:py-20 max-w-md lg:max-w-full mx-auto sm:max-w-xl xl:mr-0 2xl:col-span-2">
                     <div className="xl:max-w-xl">
-                        <img className="h-9" src="img/logo.svg" alt="Accountable" />
+                        <Logo className={'h-9'} />
                         <img className="mt-3 sm:mt-4 sm:h-96 sm:w-full sm:object-cover object-top rounded-sm shadow lg:hidden" src="img/bull.jpg" alt="Bull watching bear." />
-                        <h1 className="mt-3 sm:mt-4 text-2xl sm:text-3xl text-gray-800 font-bold lg:text-2xl xl:text-4xl">
+                        <h1 className="mt-3 sm:mt-4 font-headline text-2xl sm:text-3xl text-gray-800 font-bold lg:text-2xl xl:text-4xl">
                             You can track your way. <br />
-                            <span className="text-red-900">
+                            <span className="text-brand">
                                 Keep your decisions accountable.
                             </span>
                         </h1>
